@@ -1,0 +1,190 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    }
+    .Backvideo {
+        position: fixed;
+        bottom: 0%;
+        top: 0%;
+        left: 0%;
+        right: 0%;
+        width: 1481px;
+        z-index: -1;
+    }
+    img {
+        height: 140px;
+        width: 220px;
+        position: fixed;
+        left: 100px;
+        color: white;
+    }
+    #first {
+        color: white;
+        position: absolute;
+        top: 62px;
+        left: 400px;
+        text-decoration: none
+    }
+    
+    #Second {
+        color: white;
+        position: absolute;
+        top: 62px;
+        left: 500px;
+        text-decoration: none;
+        flex: auto;
+    }
+    #third {
+        color: white;
+        position: absolute;
+        top: 62px;
+        left: 650px;
+        text-decoration: none;
+        flex: auto;
+    
+    }
+    #fourth {
+        color: white;
+        position: absolute;
+        top: 62px;
+        left: 750px;
+        text-decoration: none;
+        text-transform: uppercase;
+        flex: auto;
+    
+    }
+    #fifth {
+        color: white;
+        position: absolute;
+        top: 62px;
+        left: 950px;
+        text-decoration: none;
+        text-transform: uppercase;
+        flex: auto;
+    }
+    #sixth {
+        color: white;
+        position: absolute;
+        top: 62px;
+        left: 1070px;
+        text-decoration: none;
+        text-transform: uppercase;
+        flex: auto;
+    }
+    #seventh {
+        color: white;
+        position: absolute;
+        top: 62px;
+        left: 1350px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    #UPCOMING {
+        color: white;
+        position: absolute;
+        left: 100px;
+        top: 500px;
+    }
+    #LAUNCH {
+        color: white;
+        position: absolute;
+        left: 100px;
+        top: 520px;
+        font-size: xx-large;
+        font-weight: 900;
+    }
+    #button {
+        position: absolute;
+        left: 110px;
+        top:560px;
+        height:40px;
+        width: 100px;
+        background-color: darkgray;
+        color: black;
+        transition: color 0.5s ease;
+    }
+        #button:hover {
+        color: white;
+        } 
+        .arrow-down {
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-top: 10px solid white;
+            animation: blink 2s infinite;
+            position: absolute;
+            top: 720px;
+            left: 730px;
+          }
+    .learn-more {
+        background-color: black;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+        position: absolute;
+        top: 560px;
+        left: 100px;
+    }
+    
+    .learn-more:hover {
+        background-color: white;
+        color: black;
+    }
+    /* The sidebar menu */
+    .sidebar {
+        height: 100%; /* Full-height */
+        width: 0; /* Initial width of 0 */
+        position: absolute; 
+        top:0px;
+        left: 1230px;
+        z-index: 1; /* Stay on top */
+        background-color: black; /* Black */
+        overflow-x: hidden; /* Disable horizontal scroll */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+        padding-top: 60px; /* Place content 60px from the top */
+    }
+    
+    /* Sidebar links */
+    .sidebar a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+    
+    /* Sidebar links on hover */
+    .sidebar a:hover {
+        color: #f1f1f1;
+    }
+    
+    /* Close button */
+    .sidebar .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    
+    /* The button used to open the sidebar */
+    .openbtn {
+        font-size: 20px;
+        cursor: pointer;
+        background-color: #111;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        position: absolute;
+        top: 50px;
+        left: 1430px;
+    }
+    #container {
+        flex-wrap: wrap;
+    }
+    

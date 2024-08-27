@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space X</title>
+    <link rel="stylesheet" href="HOME.CSS">
+</head>
+<body>
+    <video autoplay loop muted class="Backvideo"
+    src="171429-845465112.mp4" type="  video/mp4"
+    ></video>   
+    <nav>
+        <img src="5842a770a6515b1e0ad75afe.png" alt="Logo">
+        <div id="container">
+        <a id="first" href="">FALCON9</a>
+        <a id="Second" href="">FALCON HEAVY</a>\
+        <a id="third" href="">DRAGON</a>
+        <a id="fourth" href="">Human Spaceflight</a>
+        <a id="fifth" href="">Rideshare</a>
+        <a id="sixth" href="">Starlink </a>
+        <a id="seventh" href="">SHOP </a></div>
+    </nav>
+    <article id="UPCOMING">UPCOMING LAUNCH</article>
+    <article id="LAUNCH">POLARIS DAWN</article>
+    <button class="learn-more">Learn More</button>
+    <div class="arrow-down">
+    </div>
+    <button class="openbtn" onclick="openNav()">☰</button>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="#">MISSION</a>
+        <a href="#">LAUNCHES</a>
+        <a href="#">CAREERS</a>
+        <a href="#">UPDATES</a>
+    </div>
+    <script>
+        function openNav() {
+            document.getElementById("mySidebar").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("main").style.marginLeft= "0";
+        }
+    </script>
+</body>
+</html>
